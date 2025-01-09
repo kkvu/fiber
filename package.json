@@ -1,0 +1,23 @@
+{
+  "name": "fiber",
+  "version": "1.0.0",
+  "description": "fiber site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkvu/fiber.git"
+  },
+  "keywords": [
+    "fiber"
+  ],
+  "author": "Kelly Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkvu/fiber/issues"
+  },
+  "homepage": "https://github.com/kkvu/fiber#readme"
+}
