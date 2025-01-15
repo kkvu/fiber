@@ -2089,7 +2089,7 @@ display: flex;
 	--components--sections--backgrounds--bg-color-default: var(--globals--color--surfaces--01);
 	--core--font-family--primary-font: Objectivity, sans-serif;
 	--components--titles-paragraphs--text-paragraphs: var(--globals--color--texts--03);
-	--core--font-size--base-font: 14px;
+	--core--font-size--base-font: 15px;
 	--core--line-height--large: 1.5em;
 	--core--font-size--base-font-mb: 16px;
 	--core--font-family--headlines: var(--core--font-family--primary-font);
@@ -7569,7 +7569,7 @@ background-attachment: fixed;
   
   .position-relative {
 	position: relative;	
-    padding: 15px;
+    padding: 16px;
   }
   
   .image-full-width-and-height {
