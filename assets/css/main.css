@@ -2,6 +2,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	font-family: sans-serif;
+	scroll-behavior: smooth;
   }
   
   body {
@@ -1944,9 +1945,9 @@ display: flex;
 	background-color: #c8c8c8;
   }
   
-  .w-nav[data-collapse="all"] .w-nav-menu {
+  /* .w-nav[data-collapse="all"] .w-nav-menu {
 	display: none;
-  }
+  } */
   
   .w-nav[data-collapse="all"] .w-nav-button, .w--nav-dropdown-open, .w--nav-dropdown-toggle-open {
 	display: block;
@@ -1957,9 +1958,9 @@ display: flex;
   }
   
   @media screen and (max-width: 991px) {
-	.w-nav[data-collapse="medium"] .w-nav-menu {
+	/* .w-nav[data-collapse="medium"] .w-nav-menu {
 	  display: none;
-	}
+	} */
   
 	.w-nav[data-collapse="medium"] .w-nav-button {
 	  display: block;
@@ -1967,10 +1968,10 @@ display: flex;
   }
   
   @media screen and (max-width: 767px) {
-	.w-nav[data-collapse="small"] .w-nav-menu {
+	/* .w-nav[data-collapse="small"] .w-nav-menu {
 	  display: none;
 	}
-  
+   */
 	.w-nav[data-collapse="small"] .w-nav-button {
 	  display: block;
 	}
@@ -1981,9 +1982,9 @@ display: flex;
   }
   
   @media screen and (max-width: 479px) {
-	.w-nav[data-collapse="tiny"] .w-nav-menu {
+	/* .w-nav[data-collapse="tiny"] .w-nav-menu {
 	  display: none;
-	}
+	} */
   
 	.w-nav[data-collapse="tiny"] .w-nav-button {
 	  display: block;
@@ -7365,20 +7366,19 @@ background-attachment: fixed;
 	justify-content: center;
   }
   
-  .list-nav-menu {
+  .nav-menu {
 	grid-column-gap: var(--globals--gaps--gap-large);
 	justify-content: center;
 	align-items: center;
 	margin-top: 3px;
 	margin-bottom: 0;
-	padding-left: 0;
 	list-style-type: none;
 	display: flex;
   }
   
-  .link-nav-item.show-on-mobile {
+  /* .link-nav-item.show-on-mobile {
 	display: none;
-  }
+  } */
   
   .nav-menu-right-side {
 	grid-column-gap: var(--globals--gaps--gap-large);
@@ -9752,21 +9752,7 @@ background-attachment: fixed;
 	.notification-bar-padding.v6 {
 	  padding-left: 4px;
 	  padding-right: 5px;
-	}
-  
-	.list-nav-menu {
-	  padding: var(--globals--paddings--pd-medium);
-	  grid-row-gap: var(--globals--gaps--gap-medium);
-	  flex-direction: column;
-	  align-items: flex-start;
-	}
-  
-	.hamburger-menu {
-	  width: 44px;
-	  min-width: 44px;
-	  height: 44px;
-	  min-height: 44px;
-	}
+	} 
   
 	.nav-menu-wrapper {
 	  border: 1px solid var(--components--cards--border-color--br-color-default);
@@ -9785,83 +9771,7 @@ background-attachment: fixed;
         margin-left: 0;
         margin-right: 0;
     }
-    /* Because we are in mobile mode, we want to display it as a
-       vertical list */
-    nav ul {
-        display: block;
-    }
-    /* We have two lists: the first one are the always visibile items
-       in the menu bar. The second one is the one that will be hidden */
-    nav ul:last-child {
-        width: 100%;
-        flex-basis: 100%;
-    }
-    nav ul li {
-        margin-bottom: 0;
-        width: 100%;
-        text-align: right;
-        padding: 0.5em;
-    }
 
-	input[type='checkbox']:not(:checked)+ul {
-		display: none;
-	}
-
-	/* Stlying the menu icon, the checkbox stays hidden */
-nav label {
-    text-align: right;
-    display: block;
-    padding: 0.5em;
-    line-height: 1.6em;
-    align-self: center;
-}
-
-.nav-menu-wrapper a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .menu-btn {
-    display: none;
-  }
-.menu-icon {
-    grid-area: hamburger;
-    cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
-    padding: 30px 20px 30px 0;
-    position: relative;
-    user-select: none;
-    visibility: visible;
-  }
-
-  
-  .navicon {
-    background: #333;
-    display: block;
-    height: 2px;
-    width: 18px;
-    position: relative;
-  }
-
-  .navicon:before {
-    top: 5px;
-  }
-
-  .navicon:after {
-    top: -5px;
-  }
-
-  .navicon:before, .navicon:after {
-    background: #333;
-    display: block;
-    width: 100%;
-    height: 100%;
-    content: '';
-    position: absolute;
-    transition: all .2s ease-out;
-  }
 
   .nav-menu-wrapper {
     grid-area: nav;
@@ -10700,9 +10610,6 @@ nav label {
 	  padding: 40px 32px;
 	}
   
-	.buttons-row.nav-menu-hidden-on-mobile {
-	  display: none;
-	}
   
 	.buttons-row.left.center-tablet {
 	  justify-content: center;
@@ -10843,7 +10750,7 @@ nav label {
 	}
   
 	.link-nav-item.show-on-mobile {
-	  display: block;
+	  /* display: block; */
 	}
   
 	.hamburger-menu {
