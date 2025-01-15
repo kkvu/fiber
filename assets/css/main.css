@@ -1154,7 +1154,7 @@ display: flex;
   }
 
   .uui-pricing09_feature-icon-wrapper{
-	padding: 0 10px 0 10px;
+	padding: 0 6px 0 6px;
   }
   
   .w-widget-twitter-count-shim.w--vertical:before {
@@ -2089,7 +2089,7 @@ display: flex;
 	--components--sections--backgrounds--bg-color-default: var(--globals--color--surfaces--01);
 	--core--font-family--primary-font: Objectivity, sans-serif;
 	--components--titles-paragraphs--text-paragraphs: var(--globals--color--texts--03);
-	--core--font-size--base-font: 16px;
+	--core--font-size--base-font: 14px;
 	--core--line-height--large: 1.5em;
 	--core--font-size--base-font-mb: 16px;
 	--core--font-family--headlines: var(--core--font-family--primary-font);
@@ -2206,7 +2206,7 @@ display: flex;
 	--components--badge-secondary--background-color--bg-light: var(--globals--color--surfaces--01);
 	--components--badge--text-color--text-dark: var(--globals--color--texts--04);
 	--components--badge-tertiary--border-color--bg-light: var(--globals--color--surfaces--02);
-	--core--colors--secondary--500: #00307f;
+	--core--colors--secondary--500: #0e1810;
 	--core--colors--neutral--400: #b7bab7;
 	--components--badges--border-radius--br-small: var(--core--border-radius--br-size-1);
 	--core--colors--secondary--200: #00e0fe;
@@ -4062,6 +4062,7 @@ display: flex;
 	font-size: var(--core--font-size--displays--display-8);
 	line-height: var(--core--line-height--regular);
 	letter-spacing: -.03em;
+	color: var(--core--colors--neutral--800);
   }
   
   .display-7 {
@@ -4894,9 +4895,9 @@ display: flex;
   
   .card.sales-home-hero-card {
 	border-radius: var(--core--border-radius--br-size-5);
-	background-color: var(--core--colors--secondary--600);
-	padding-top: 150px;
-	padding-bottom: 150px;	
+	background-color: var(--core--colors--neutral--800);
+	padding-top: 100px;
+	padding-bottom: 100px;	
 	background-image: url("images/car.jpg");
 	background-size: cover;
 background-repeat: no-repeat;
@@ -4905,9 +4906,9 @@ background-attachment: fixed;
   }
   
   .card.main-page-card {
-	/* background-color: var(--core--colors--secondary--600); */
-	background-image: linear-gradient(#0061fe, #003a98);
-	padding: 120px 40px;
+	background-color: var(--core--colors--secondary--200);
+	/* background-image: linear-gradient(#0061fe, #003a98); */
+	padding: 120px 30px;
   }
   
   .card.whats-included {
@@ -5604,9 +5605,9 @@ background-attachment: fixed;
 	padding: 18px var(--components--buttons--paddings--pd-large) var(--components--buttons--paddings--pd-medium);
 	grid-column-gap: var(--components--buttons--gaps--gap-small);
 	grid-row-gap: var(--components--buttons--gaps--gap-small);
-	background-color: var(--core--colors--secondary--300);
-	box-shadow: none;
-	color: var(--core--colors--neutral--100) !important;
+	background-color: var(--core--colors--secondary--200);
+	box-shadow: 2px;
+	color: var(--core--colors--neutral--800) !important;
 	font-size: var(--core--font-size--displays--display-3);
 	line-height: var(--core--line-height--regular);
 	text-align: center;
@@ -5619,6 +5620,7 @@ background-attachment: fixed;
     margin: 0 20px;
 	transition: transform .3s;
 	display: flex;
+	border: none;
   }
   
   .primary-button:hover {
@@ -5703,7 +5705,6 @@ background-attachment: fixed;
   }
   
   .primary-button-icon {
-	border: var(--components--buttons--border-width--bw-default) solid var(--core--colors--neutral--800);
 	border-radius: var(--core--border-radius--br-pill);
 	background-color: var(--core--colors--neutral--800);
 	box-shadow: none;
@@ -7568,7 +7569,7 @@ background-attachment: fixed;
   
   .position-relative {
 	position: relative;	
-    padding: 20px;
+    padding: 15px;
   }
   
   .image-full-width-and-height {
@@ -9393,7 +9394,7 @@ background-attachment: fixed;
   
 	.display-8 {
 	  font-size: var(--core--font-size--displays-tablet--display-8);
-	  color: var(--core--colors--neutral--300);
+	  color: var(--core--colors--neutral--800);
 	}
   
 	.display-7 {
@@ -10155,6 +10156,7 @@ background-attachment: fixed;
   
 	.display-8 {
 	  font-size: var(--core--font-size--displays-mbl--display-8);
+	  color: var(--core--colors--neutral--800);
 	}
   
 	.display-7 {
@@ -11159,6 +11161,7 @@ background-attachment: fixed;
   
 	.display-8 {
 	  font-size: var(--core--font-size--displays-mbp--display-8);
+	  color: var(--core--colors--neutral--800);
 	}
   
 	.display-7 {
