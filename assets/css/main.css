@@ -2206,7 +2206,7 @@ display: flex;
 	--components--badge-secondary--background-color--bg-light: var(--globals--color--surfaces--01);
 	--components--badge--text-color--text-dark: var(--globals--color--texts--04);
 	--components--badge-tertiary--border-color--bg-light: var(--globals--color--surfaces--02);
-	--core--colors--secondary--500: #0e1810;
+	--core--colors--secondary--500: #092139;
 	--core--colors--neutral--400: #b7bab7;
 	--components--badges--border-radius--br-small: var(--core--border-radius--br-size-1);
 	--core--colors--secondary--200: #00e0fe;
@@ -4561,6 +4561,7 @@ display: flex;
 	text-decoration: none;
 	transition-property: transform;
 	display: block;
+	filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
   }
   
   .card.sales-home---page-link:hover {
