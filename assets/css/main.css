@@ -6919,7 +6919,6 @@ body:has(.side-menu:checked) {
 }
 
 .grid-3-columns {
-	grid-column-gap: var(--globals--grid-gap--default);
 	grid-row-gap: var(--globals--grid-gap--default);
 	grid-template-rows: auto;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -8542,8 +8541,8 @@ body:has(.side-menu:checked) {
 }
 
 .sales-home---cta-card-image {
-	min-width: 450px;
-	max-width: 450px;
+	min-width: 400px;
+	max-width: 400px;
 	margin-bottom: -32px;
 }
 
