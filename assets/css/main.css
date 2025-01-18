@@ -9724,7 +9724,7 @@ body:has(.side-menu:checked) {
 
 	.display-8 {
 		font-size: var(--core--font-size--displays-tablet--display-8);
-		color: var(--core--colors--neutral--800);
+		color: var(--core--colors--neutral--100);
 	}
 
 	.display-7 {
