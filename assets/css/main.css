@@ -2758,7 +2758,7 @@ textarea.w-select {
 	order: 1;
 	display: block;
 	line-height: 2.75em;
-	padding: 0 1.618em;
+	padding: 0 1em;
 	color: var(--core--colors--secondary--500);
 	cursor: pointer;
 	top: 0;
@@ -11736,9 +11736,8 @@ body:has(.side-menu:checked) {
 	}
 
 	.card.main-page-card {
-
-		padding-left: 24px;
-		padding-right: 24px;
+		padding-left: 14px;
+		padding-right: 14px;
 	}
 
 	.flex-horizontal.logo-strip.v6 {
