@@ -8610,7 +8610,7 @@ textarea {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(0,224,250,0.8);
+    background: rgba(0,224,250,0.5);
 }
 
 #video1 { margin: auto; display: block;}
