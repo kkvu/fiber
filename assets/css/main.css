@@ -942,7 +942,7 @@ textarea.w-select {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
 
 	.w-hidden-main,
 	.w-hidden-medium {
@@ -1527,7 +1527,7 @@ textarea.w-select {
 	outline: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
 	.w-nav-brand {
 		padding-left: 10px;
 	}
@@ -2098,7 +2098,7 @@ textarea.w-select {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
 
 	/* .w-nav[data-collapse="small"] .w-nav-menu {
 	  display: none;
@@ -2361,6 +2361,7 @@ textarea.w-select {
 	--components--cards--paddings--pd-default: var(--globals--paddings--pd-medium);
 	--core--box-shadow--bs-neutral-medium: #1f2f541a;
 	--core--sizes--size-12: 120px;
+	--core--sizes--size-10: 80px;
 	--core--sizes--size-9: 64px;
 	--core--sizes--size-8: 48px;
 	--components--cards--paddings--pd-small: var(--globals--paddings--pd-default);
@@ -4007,7 +4008,7 @@ textarea.w-select {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
 	.w-layout-blockcontainer {
 		max-width: none;
 	}
@@ -5275,6 +5276,7 @@ body:has(.side-menu:checked) {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	padding: 50px 0;
 }
 
 .card.main-page-card {
@@ -7806,9 +7808,9 @@ body:has(.side-menu:checked) {
 	background-color: var(--components--sections--backgrounds--bg-color-tertiary);
 }
 
-.section.cta-sales-home {
-	padding-top: var(--core--sizes--size-9);
-	padding-bottom: var(--core--sizes--size-9);
+.section.gallery {
+	padding-top: var(--core--sizes--size-10);
+	padding-bottom: var(--core--sizes--size-10);
 }
 
 .section.logo-strip-section {
@@ -10259,7 +10261,7 @@ textarea {
 		padding-bottom: var(--core--sizes--size-12);
 	}
 
-	.section.cta-sales-home {
+	.section.gallery {
 		padding-top: var(--components--sections--paddings--pd-default);
 	}
 
@@ -10522,7 +10524,7 @@ textarea {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 967px) {
 	body {
 		font-size: var(--core--font-size--base-font-mb);
 	}
@@ -11243,7 +11245,7 @@ textarea {
 		padding-bottom: var(--components--sections--paddings--pd-large);
 	}
 
-	.section.cta-sales-home {
+	.section.gallery {
 		padding-bottom: var(--core--sizes--size-9);
 	}
 
@@ -13672,7 +13674,7 @@ textarea {
 		}
 	}
 
-	@media screen and (max-width: 767px) {
+	@media screen and (max-width: 967px) {
 		#w-node-_35d5e139-74e2-bdb0-ab6f-5464403e54b5-57241a43 {
 			grid-column: span 2 / span 2;
 		}

@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- This site was created in Webflow. https://webflow.com -->
-<!-- Last Published: Thu Jan 09 2025 18:52:31 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="cartflowtemplates.webflow.io" data-wf-page="66b93fd9c65755b8a91df222"
     data-wf-site="66b93fd9c65755b8a91df144" data-wf-status="1" lang="en" data-wf-locale="en">
 
@@ -9,7 +7,7 @@
     <title>Fiber Details - Mobile Detailing</title>
     <meta content="Premier mobile car detailing bringing luxury service directly to your doorstep."
         name="description" />
-    <meta content="  - Premier mobile car detailing" property="og:title" />
+    <meta content="Fiber Details - Premier mobile car detailing" property="og:title" />
     <meta
         content="We bring showroom shine to your driveway. Fiber Details offers professional mobile car detailing services, including deep interior cleaning and exterior care. Convenience meets quality."
         property="og:description" />
@@ -59,6 +57,10 @@
                 ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);
     </script>
+    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="info.js"></script>
     <script type="text/javascript" src="https://d3vun76hlrxgjr.cloudfront.net"></script>
     <script>window.FielddBooking.init('HJckw3');</script>
     <link href="images/f_logo_small.svg" rel="shortcut icon" type="image/x-icon" />
@@ -99,11 +101,20 @@
                     <nav class="nav">
                         <ul class="menu">
                             <li class="link-nav-item">
+                                <a href="#home" class="header-nav-link w-nav-link">Home</a>
+                            </li>
+                            <li class="link-nav-item">
+                                <a href="#reviews" class="header-nav-link w-nav-link">Reviews</a>
+                            </li>
+                            <li class="link-nav-item">
                                 <a href="#services" class="header-nav-link w-nav-link">Services</a>
                             </li>
 
                             <li class="link-nav-item">
                                 <a href="#gallery" class="header-nav-link w-nav-link">Gallery</a>
+                            </li>
+                            <li class="link-nav-item">
+                                <a href="#faqs" class="header-nav-link w-nav-link">FAQs</a>
                             </li>
                             <li class="link-nav-item">
                                 <a href="#contact" class="header-nav-link w-nav-link">Contact</a>
@@ -120,62 +131,98 @@
         </div>
         <section class="section pd-0px" id="home">
             <div class="w-layout-blockcontainer container-default w-container">
-                <div class="card sales-home-hero-card">
-                    <div class="pd-content---header-card">
-                        <div class="text-center">
-                            <div class="inner-container _720px center">
-                                <!-- <h1 data-w-id="b5db257c-2173-e54a-ac0d-849d0e57c35e"
-                                    style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="display-10">Fiber Details</h1> -->
-
-                                <img src="images/fiberDetails_logo.png" alt="Fiber Details" style="height: 150px;" />
-                            </div>
-                            <div class="mg-top-small">
+                <div class="card info-card" id="video">
+                    <div class="inner-container _720px">
+                        <video id="video1" preload="" autoplay="" muted="" playsinline="" loop="">
+                            <source src="assets/videos/fiber_details1080p.mp4" type="video/mp4">
+                    </div>
+                    <div class="info-container">
+                        <div class="grid-2-columns">
+                            <div class="header-text">
+                                <h1 class="display-10">High-Quality, Fast, Convenient</h1>
                                 <p data-w-id="c78f56ee-02b3-8365-4a88-a108ace133b1"
                                     style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="paragraph-large light-text">Premier mobile car detailing bringing top-notch
-                                    service directly to your doorstep.</p>
+                                    class="paragraph-large light-text">We bring professional car care to you—at home, at
+                                    work, or anywhere in Austin.</p>
+                                <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c" href="tel:+15129105434"
+                                    class="secondary-button w-inline-block">
+                                    <div>Call (512) 910-5434</div>
+                                </a>
                             </div>
-                            <div class="mg-top-default">
-                                <div data-w-id="c61568fb-4f2a-d97c-4960-b07fae54a0a3"
-                                    style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                                    class="buttons-row">
-                                    <a id="w-node-e9da5fd6-ab44-5b2f-81ad-6e5f36bfab9c-36bfab9c"
-                                        href="https://fiberdetails.fieldd.co/" class="primary-button w-inline-block">
-                                        <div>Book Now</div>
-                                    </a>
-                                    <!-- <a id="w-node-_9ac5c108-4a68-32dd-6e03-9f793bb88842-3bb88842" href="#main-pages" class="secondary-button w-inline-block">
-                                            <div class="text-block">Explore pages</div>
-                                        </a> -->
-                                </div>
+                            <div class="contact-form-container">
+                                <form id="contactForm" action="https://formspree.io/f/xpwqjnry" method="POST"
+                                    target="_blank">
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" name="name" required>
+                                        <span class="error-message" id="nameError"></span>
+                                    </div>
+
+                                    <div class="form-group-container">
+                                        <div class="form-group-table">
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email" name="email" required>
+                                            <span class="error-message" id="emailError"></span>
+                                        </div>
+                                        <div class="form-group-table">
+                                            <label for="phone">Phone</label>
+                                            <input type="tel" id="phone" name="phone" required>
+                                            <span class="error-message" id="phoneError"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-container">
+                                        <div class="form-group-table">
+                                            <label for="make">Make</label>
+                                            <input type="text" id="make" name="make" required>
+                                            <span class="error-message" id="makeError"></span>
+                                        </div>
+                                        <div class="form-group-table">
+                                            <label for="model">Model</label>
+                                            <input type="text" id="model" name="model" required>
+                                            <span class="error-message" id="modelError"></span>
+                                        </div>
+                                        <div class="form-group-table">
+                                            <label for="year">Year</label>
+                                            <input type="number" id="year" name="year" required>
+                                            <span class="error-message" id="yearError"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="service">Service</label>
+                                        <select name="service" id="service">
+                                            <option value="interiorOnly">Interior Only</option>
+                                            <option value="exteriorOnly">Exterior Only</option>
+                                            <option value="gold">Full Detail</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Additional Details</label>
+                                        <textarea id="message" name="message" rows="2"></textarea>
+                                        <span class="error-message" id="messageError"></span>
+                                    </div>
+                                    <button type="submit" class="primary-button">
+                                        Get a Free Quote
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div data-w-id="17853450-f9d9-10f6-6823-db17f2eaead3" style="opacity:0"
-                        class="sales-home---pages-container">
-                        <div class="sales-home---pages-row top">
-                            <!-- <a href="/blog-pages/blog-v1" class="sales-home---hero-link-wrapper w-inline-block">
-                                    <img src="images/car.jpg" loading="eager" alt="Store X - Blog V1 Page - Plants Webflow Template"/>
-                                </a> -->
-
+                </div>
+            </div>
+        </section>
+        <section class="section pd-0px" id="reviews">
+            <div class="w-layout-blockcontainer container-default w-container">
+                <div class="card reviews">
+                    <div class="inner-container _1050px center">
+                        <div data-w-id="05b7d1cc-877d-f2c3-98eb-aa7285e6d793"
+                            style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                            class="inner-container _850px center">
+                            <div class="text-center">
+                                <!-- <h2 class="display-8">Reviews</h2> -->
+                                <div class="elfsight-app-6f6b7d6d-d7e3-4745-9fde-b5655e7ce490" data-elfsight-app-lazy>
+                                </div>
+                            </div>
                         </div>
-                        <!-- <div class="sales-home---pages-row bottom">
-                                <a href="/shop-pages/all-products-v1" class="sales-home---hero-link-wrapper w-inline-block">
-                                    <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66e36b1c13c6e3f351873afd_store-x-all-products-v1-page-thumbnail-plants-webflow-template.jpg" loading="eager" alt="Store X - All Products V1 Page - Plants Webflow Template"/>
-                                </a>
-                                <a href="/blog-pages/blog-v2" class="sales-home---hero-link-wrapper w-inline-block">
-                                    <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66e36b1c02c1ee5ced2aa0a3_store-x-blog-v2-page-thumbnail-plants-webflow-template.jpg" loading="eager" alt="Store X - Blog V2 Page - Plants Webflow Template"/>
-                                </a>
-                                <a href="/post/transform-your-office-with-these-low-maintenance-office-plants" class="sales-home---hero-link-wrapper w-inline-block">
-                                    <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66e36b1c63a2f435923723cd_store-x-blog-post-page-thumbnail-plants-webflow-template.jpg" loading="eager" alt="Store X - Blog Post Page - Plants Webflow Template"/>
-                                </a>
-                                <a href="/blog-pages/blog-v3" class="sales-home---hero-link-wrapper w-inline-block">
-                                    <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66e36b1c5d9c7ee9a19952d2_store-x-blog-v3-page-thumbnail-plants-webflow-template.jpg" loading="eager" alt="Store X - Blog V3 Page - Plants Webflow Template"/>
-                                </a>
-                                <a href="/category/shrub" class="sales-home---hero-link-wrapper w-inline-block">
-                                    <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/6765be526a9fe5756858e716_cartflow-product-by-category-page-ecommerce-store-webflow-template.png" loading="eager" alt="Cartflow - Product By Category Page - Ecommerce Store Webflow Template"/>
-                                </a>
-                            </div> -->
                     </div>
                 </div>
             </div>
@@ -1155,7 +1202,7 @@
                     </div>
                 </div>
             </section> -->
-        <section class="section cta-sales-home" id="gallery">
+        <section class="section gallery" id="gallery">
             <div class="w-layout-blockcontainer container-default w-container">
                 <div class="inner-container _1158px center">
                     <div data-w-id="05b7d1cc-877d-f2c3-98eb-aa7285e6d793"
@@ -1196,6 +1243,74 @@
                             <img src="images/IMG_0484.jpg"
                                 loading="eager" sizes="(max-width: 167px) 100vw, 976px"
                                 class="sales-home---cta-card-image" /> </a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section pd-0px" id="faqs">
+            <div class="w-layout-blockcontainer container-default w-container">
+                <div data-w-id="9dabc3b1-cb78-d347-7c77-5a8b55c31260"
+                    style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                    class="card faqs text-center">
+                    <h2 class="display-8">FAQs</h2>
+                    <!-- <div class="inner-container _627px center">
+                        <div class="mg-top-small">
+                            <p class="paragraph-large">Cartflow Webflow Template includes over 20 pages in total, with more than 36 sections, and 3 different Home, Blog &amp;All products pages.</p>
+                        </div>
+                    </div> -->
+                    <div class="mg-top-large">
+                        <div class="grid-3-columns _1-col-tablet">
+                            <div id="w-node-_1d8f2817-e5c1-5106-13a4-a95511fb7c69-a91df222"
+                                data-w-id="1d8f2817-e5c1-5106-13a4-a95511fb7c69"
+                                style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="card faq">
+                                <!-- <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66c7fdc0b0b7be725b311ce5_store-x-20-page-included-plants-webflow-template.png" loading="eager" alt="Store X - 20 Page Included - Plants Webflow Template" class="width-100"/> -->
+                                <div class="card-pages-included---bottom-content">
+                                    <div class="text-titles">
+                                        <div class="display-4 mid">How long does a detail take?
+                                        </div>
+
+                                        <div class="mg-top-extra-small">
+                                            <div class="display-3 mid">Most services take 1.5 - 3 hours, depending on
+                                                the package.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="w-node-_2d73704f-c702-edcc-e701-40c5d95e31da-a91df222"
+                                data-w-id="2d73704f-c702-edcc-e701-40c5d95e31da"
+                                style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="card whats-included">
+                                <!-- <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66c7fdc05d526e4d4ba5da57_store-x-36-sections-included-plants-webflow-template.png" loading="eager" alt="Store X - 36 Sections Included - Plants Webflow Template" class="width-100"/> -->
+                                <div class="card-pages-included---bottom-content">
+                                    <div class="text-titles">
+                                        <div class="display-4 mid">Do I need to provide water or power?
+                                        </div>
+                                        <div class="mg-top-extra-small">
+                                            <div class="display-3 mid">Nope! We bring everything needed.
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="w-node-_9e22393a-f3cd-8412-d79b-376b45fb041d-a91df222"
+                                data-w-id="9e22393a-f3cd-8412-d79b-376b45fb041d"
+                                style="-webkit-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="card whats-included">
+                                <!-- <img src="https://cdn.prod.website-files.com/66b93fd9c65755b8a91df144/66c7fdc025b54e09fd15915b_store-x-25-styles-and-components-included-plants-webflow-template.png" loading="eager" alt="Store X - 25 Styles And Components Included - Plants Webflow Template" class="width-100"/> -->
+                                <div class="card-pages-included---bottom-content">
+                                    <div class="text-titles">
+                                        <div class="display-4 mid">How do I pay?
+                                        </div>
+                                        <div class="mg-top-extra-small">
+                                            <div class="display-3 mid">We accept cash, card, and digital payments.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
